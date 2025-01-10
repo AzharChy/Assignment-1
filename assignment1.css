@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  
+}
+/* nav starts here */
+.nav{
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 100px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 160px;
+}
+.name{
+    font-weight: bold;
+    font-size: 32px;
+    font-family: ;
+    color: #0E0E0E;
+}
+.sign-in{
+    color: #006A50;
+    width: 116px;
+    height: 52px;
+    border: 1px solid #006A50;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+/* nav ends here */
+
+/* banner starts here */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    height: 560px;
+    background-color: #C6E4D6;
+    margin-left: 24px;
+    gap: 24px;
+    padding: 100px;
+    border-radius: 24px;
+}
+.ban{
+    font-size: 24px;
+    color: #0E0E0E;
+}
+.banner-texts{
+    font-size: 56px;
+    color: #0E0E0E;
+    font-weight: bold;
+    width: 622px;
+    height: 201px;
+}
+
+.banner-btn{
+    background-color: #006A50;
+    color: white;
+    width: 270px;
+    height: 56px;
+    padding:  17px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+/* banner ends here */
+
+/* pillars section starts here */
+
+.pillars-container{
+    max-width: 1280px;
+    height: 324px;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin: 0 24px;
+    background-color:  #F5F5F5;
+}
+.card{
+    background-color: white;
+    padding: 24px;
+    width: 290px;
+    height: 244px;
+    border-radius: 16px;
+   
+}
+.card-icon{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 5px;
+}.card-title{
+    color: rgba(14, 14, 14, 0.8);
+    width: 254px;
+    height: 24px;
+    margin-bottom: 5px;
+}
+.card-text{
+    color: rgba(14, 14, 14, 0.7);
+    width: 254px;
+    height: 72px;
+}
+
+/* pillar sections ends here */
