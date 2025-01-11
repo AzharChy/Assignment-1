@@ -474,3 +474,67 @@
 }
 
 /* subscribe newsletter ends here */
+
+/* footer starts here */
+
+
+/* .footer-body{
+    text-align: center;
+    width: 1600px;
+    height: 226px;
+}
+.footer-title{
+    width: 222px;
+    height: 38px;
+    color: #0E0E0E;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+.footer-bd{
+    text-align: center;
+}
+.social-icons{
+    display: flex;
+    gap: 23px;
+    width: 120px;
+    height: 24px;
+    text-align: center;
+    justify-content: center;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+} */
+footer {
+    background-color: white;
+    color: #0E0E0E;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-title h4 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #0E0E0E;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.icon:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+/* footer ends here */
