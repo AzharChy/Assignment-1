@@ -108,3 +108,164 @@
 }
 
 /* pillar sections ends here */
+/* vision starts here */
+.vision{
+  
+    max-width: 1280px;
+    height: 324px;
+    padding: 80px;
+   
+    margin: 100px 24px;
+    background-color:  #F5F5F5;
+}
+
+   
+
+.vison-title{
+    color:  rgba(14, 14, 14, 0.8);
+    font-weight: bold;
+    font-size: 40px;
+    width: 1280px;
+    height: 48px;
+}
+.vision-text{
+    color:  rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+
+}
+.vision-card{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1280px;
+    height: 325px;
+    text-align: center;
+}
+.card-body{
+    width: 411px;
+    height: 325px;
+}
+.btn-vision1{
+    width: 122px;
+    height: 41px;
+    text-align: center;
+    padding: 11px;
+    font-weight: bold;
+    color: white;
+    border-radius: 16px;
+    background-color: #5490F5;
+}
+.btn-vision2{
+    width: 122px;
+    height: 41px;
+    text-align: center;
+    padding:11px;
+    font-weight: bold;
+    color: white;
+    border-radius: 16px;
+    background-color:#09A15C;
+}
+.btn-vision3{
+    width: 122px;
+    height: 41px;
+    text-align: center;
+    padding:  11px;
+    font-weight: bold;
+    color: white;
+    border-radius: 16px;
+    background-color: #FFC239;
+}
+.btn-vision1:hover, 
+.btn-vision2:hover, 
+.btn-vision3:hover {
+    background-color: gray;
+}
+
+/* vision ends here */
+/* quote section starts here */
+.quote{
+    background-image: url(quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    margin: 50px;
+    max-width: 1280px;
+    height: 256px;
+}
+.quote-text{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    width: 1232px;
+    height: 96px;
+    padding: 1rem;
+    line-height: 24px;
+}
+.quote-footer{
+  width: 1232px;
+  height: 52px;
+}
+.yunus{
+    width: 1232px;
+  height: 24px;
+  font-weight: semibold;
+  font-size: 20px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.position{
+    width: 1232px;
+  height: 24px;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.6);
+}
+/* quote section ends here */
+/* opinion starts here */
+
+  .opinion{
+    max-width: 1280px;
+    height: 600px;
+    padding: 80px;
+   
+    margin:  0 24px;
+    background-color:  #F5F5F5;
+  }
+  .opinion-title{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+    text-align: left;
+    max-width: 1280px;
+    height: 48px;
+   margin-bottom: 50px;
+  }
+
+  .opinion-table{
+    width: 1280px;
+    height: 409px;
+  }
+  table{
+    width: 1150px;
+    height: 345px;
+    text-align: left;
+    border-collapse: collapse;
+    padding: 0 10px;
+    background-color: white;
+  }
+  .table-header{
+    background-color: #C6E4D6;
+    font-size: 20px;
+    font-weight: semibold;
+    color: #0E0E0E; 
+  }
+  .t-header{
+    padding: 0.1rem;
+    margin-left: 5px;
+  }
+  td{
+    font-size: 16px;
+    margin-left: 5px;
+  }
+  .btn-table{
+    width: 152px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: semibold;
+  }
+/* /* opinion endss here */ 
