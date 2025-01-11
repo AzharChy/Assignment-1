@@ -5,6 +5,9 @@
     text-decoration: none;
     list-style-type: none;
 }
+.container{
+    background-color: #F1F1F3;
+}
 /* nav starts here */
 .nav{
     background-color: #F5F5F5;
@@ -270,45 +273,21 @@
 /* /* opinion endss here */ 
 
 /* recent news starts here */
-.recent-news{
-    font-weight: bold;
-    color: #0E0E0E;
-    text-align: left;
-    max-width: 1280px;
-    height: 120px;
-   margin-bottom: 50px;
-   margin: 24px;
-}
-.recent-news-title{
-    width: 1280px;
-    height: 48px;
-    font-size: 40px;
-}
-.recent-news-text{
-    font-size: 16px;
-    width: 1280px;
-    height: 48px;
-}
-.recent-card{
-    display: list-item;
-}
-.recent-news-card{
+/* .recent-news{
     display: flex;
-    flex-direction: row;
-    gap: 0;
-    width: 1280px;
+    flex-direction: column;
+}
+.card{
+    display: flex;
+    max-width: 1280px;
     height: 402px;
     margin: 24px;
-  
+    background-color: #FFFFFF;
 }
 .recent-news-card-img{
-    width: 408px;
-    height: 306px;
-    flex: 1;
-    display: block;
-}
-.recent-news-info{
-    flex: 1;
+  width: 408px;
+  height: 306px;
+  text-align: center;
 }
 .inside-title{
     font-weight: bold;
@@ -336,7 +315,7 @@
 }
 .inside-button:hover{
     background-color: gray;
-}
+} */
 /* donate today starts here */
 
 .donate-today{
@@ -478,35 +457,7 @@
 /* footer starts here */
 
 
-/* .footer-body{
-    text-align: center;
-    width: 1600px;
-    height: 226px;
-}
-.footer-title{
-    width: 222px;
-    height: 38px;
-    color: #0E0E0E;
-    font-size: 32px;
-    font-weight: bold;
-    text-align: center;
-    justify-content: center;
-}
-.footer-bd{
-    text-align: center;
-}
-.social-icons{
-    display: flex;
-    gap: 23px;
-    width: 120px;
-    height: 24px;
-    text-align: center;
-    justify-content: center;
-}
-.icon{
-    width: 24px;
-    height: 24px;
-} */
+
 footer {
     background-color: white;
     color: #0E0E0E;
